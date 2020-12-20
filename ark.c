@@ -5,6 +5,7 @@ int main()
 printf("enter a number");
 scanf("%d",&n);
  for(i=1;i<=n;i++)
+ 
  {multiply=multiply*i;
  }
     printf(" factorial of %d is %d",n,multiply);
